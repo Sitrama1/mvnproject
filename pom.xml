@@ -11,9 +11,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>7.0</version>
+            <groupId>suryam</groupId>
+            <artifactId>myrepo</artifactId>
+            <version>1.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -31,14 +31,14 @@
     </developers>
     <distributionManagement>
         <repository>
-            <id>nexus-artifact</id>
-	    <name>mvn1</name>
-            <url>http://18.217.241.42:8081/nexus/content/repositories/mvn1</url>
+            <id>myrepo</id>
+	    <name>myrepo</name>
+            <url>http://13.126.35.247:8081/nexus/content/repositories/myrepo</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>Snapshots</name>
-            <url>http://18.217.241.42:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://13.126.35.247:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
